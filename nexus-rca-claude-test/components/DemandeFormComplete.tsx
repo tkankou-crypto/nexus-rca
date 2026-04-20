@@ -166,7 +166,7 @@ export function DemandeFormComplete() {
         destination: form.destination || null,
         budget_estimatif: form.budget_estimatif || null,
         traitement_prioritaire: prioritaire,
-        source: form.source || "formulaire_complet",
+        source: "formulaire_complet",
         details_service: form.details,
         consentement_examen: form.consentement_examen,
         consentement_documents: form.consentement_documents,
